@@ -18,9 +18,9 @@ If you just want to download and install the device, then go to the [frozen/](ht
 
 Add an instance of `ChordRipper` to each track where you want to dissect a chord. Set the `Voice` parameter to the note number in the chord you want to receive. The notes are ordered by when they are received, so the first note played in the chord will be Voice 1, etc.
 
-Use the `Channel` parameter to create different chord groups, a lot like selecting different walkie-talking channels. This allows you to have several independent chord groups in your Live set.
+Use the `Group` parameter to create different chord groups, a lot like selecting different walkie-talkie channels. This allows you to have several independent chord groups in your Live set.
 
-Any of the instances of `ChordRipper` can receive MIDI notes/chords. No matter which one receives the MIDI chord, it will broadcast the component notes for the other instances to receive, depending on their Voice / Channel configuration.
+Any of the instances of `ChordRipper` can receive MIDI notes/chords. No matter which one receives the MIDI chord, it will broadcast the component notes for the other instances to receive, depending on their Voice / Group configuration.
 
 ## Thanks
 Thanks so much to [Awkward
@@ -33,7 +33,7 @@ groups in one Live set.
 
 That took me down my usual path of simplification.
 
-By using a `[forward]` device (which is a lot like a `[send]` but it can change its destination), I was able to eliminate 8 pairs of send/receive devices and two routers from the original device, while adding the `Channel` functionality.
+By using a `[forward]` device (which is a lot like a `[send]` but it can change its destination), I was able to eliminate 8 pairs of send/receive devices and two routers from the original device, while adding the `Group` functionality.
 
 Original AwJe Chordsplit:
 ![Original Device](images/before.png)
