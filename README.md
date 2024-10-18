@@ -8,11 +8,12 @@ This is a Max For Live MIDI effect that allows you to decompose a chord and use 
 ### Changelog
 
 Direct download links below.
-* [DOWNLOAD v1](https://github.com/zsteinkamp/m4l-ChordRipper/raw/main/frozen/ChordRipper-v1.amxd) - 2023-09-09 - Initial release.
+* [v2](https://github.com/zsteinkamp/m4l-ChordRipper/releases/download/v2/ChordRipper-v2.amxd) - 2023-10-18 - Rename 'Channel' to 'Group'; small visual changes.
+* [v1](https://github.com/zsteinkamp/m4l-ChordRipper/raw/main/frozen/ChordRipper-v1.amxd) - 2023-09-09 - Initial release.
 
 ## Installation / Setup
 
-If you just want to download and install the device, then go to the [frozen/](https://github.com/zsteinkamp/m4l-ChordRipper/tree/main/frozen) directory and download the newest .zip file there. You can also download it directly via the links in [*Changelog*](#changelog).
+If you just want to download and install the device, then go to the [Releases Page](https://github.com/zsteinkamp/m4l-ChordRipper/releases) and download the newest version there. You can also download it directly via the links in [*Changelog*](#changelog).
 
 ## Usage
 
