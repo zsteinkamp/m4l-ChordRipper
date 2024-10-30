@@ -8,6 +8,7 @@ This is a Max For Live MIDI effect that allows you to decompose a chord and use 
 ### Changelog
 
 Direct download links below.
+* [v3](https://github.com/zsteinkamp/m4l-ChordRipper/releases/download/v3/ChordRipper-v3.amxd) - 2023-10-29 - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
 * [v2](https://github.com/zsteinkamp/m4l-ChordRipper/releases/download/v2/ChordRipper-v2.amxd) - 2023-10-18 - Rename 'Channel' to 'Group'; small visual changes.
 * [v1](https://github.com/zsteinkamp/m4l-ChordRipper/raw/main/frozen/ChordRipper-v1.amxd) - 2023-09-09 - Initial release.
 
